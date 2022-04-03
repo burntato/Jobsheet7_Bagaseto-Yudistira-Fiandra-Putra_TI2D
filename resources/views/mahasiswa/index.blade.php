@@ -56,4 +56,7 @@
 
         @endforeach
     </table>
+    <div class="">
+        {{ $mahasiswa->links() }}
+    </div>
 @endsection
