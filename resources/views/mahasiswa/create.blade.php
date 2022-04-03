@@ -37,6 +37,18 @@
                         <label for="jurusan">Jurusan</label>
                         <input type="text" class="form-control" id="jurusan" name="jurusan" aria-describedby="Jurusan">
                     </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" name="email" aria-describedby="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat">Alamat</label>
+                        <input type="text" class="form-control" id="alamat" name="alamat" aria-describedby="Alamat">
+                    </div>
+                    <div class="form-group">
+                        <label for="tgl_lahir">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="tgl_lahir" name="tgl_lahir" aria-describedby="Tanggal Lahir">
+                    </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>

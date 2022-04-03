@@ -21,7 +21,10 @@ class MahasiswaFactory extends Factory
             'nim' => $this->faker->numerify("#########"),
             'nama' => $this->faker->name(),
             'kelas' => $this->faker->text(5),
-            'jurusan' => $this->faker->text(10)
+            'jurusan' => $this->faker->text(10),
+            'email' => $this->faker->email(),
+            'alamat' => $this->faker->address(),
+            'tgl_lahir' => $this->faker->date(),
         ];
     }
 }
